@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class DetalleFactura {
     public static void main(String[] args) {
         System.out.println("Ingrese el nombre de la factura: ");
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);  // con Scanner System.in recibo por teclado 
         String nombreFactura = sc.nextLine();
 
         System.out.println("Ingrese el primer valor: ");
